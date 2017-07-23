@@ -270,7 +270,7 @@ public class ImportSTL : Editor
             Debug.LogError("Single Triangles Number: this value is unreasonable!");
             return;
         }
-        if (int.Parse(_trianglescount) > 200000)
+        if (int.Parse(_trianglescount) > 200000000)
         {
             Debug.LogError("Triangles Count: this value is too much!");
             return;
